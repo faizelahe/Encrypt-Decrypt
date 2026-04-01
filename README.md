@@ -21,7 +21,7 @@ A basic Python script for encrypting and decrypting messages using AES in CBC mo
 Install dependencies with pip:
 
 ```bash
-pip install pycryptodome
+pip install pycryptodome```
 
 Usage
 from aes_tool import encrypt, decrypt
