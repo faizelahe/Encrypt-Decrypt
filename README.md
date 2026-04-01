@@ -25,7 +25,9 @@ pip install pycryptodome
 ```
 ---
 
-Usage
+# Usage
+
+```bash
 from aes_tool import encrypt, decrypt
 
 # Encrypt a message
@@ -34,17 +36,26 @@ ciphertext, key, iv = encrypt("Hello, world!")
 # Decrypt a message
 plaintext = decrypt(ciphertext, key, iv)
 print(plaintext)  # Output: Hello, world!
-Warning
+```
+
+---
+
+# Warning
 
 This implementation is not secure for real encryption needs:
 
 Uses a fixed block size.
 Lacks secure key storage.
 Intended for educational purposes only.
-Contributing
+
+---
+
+# Contributing
 
 Feel free to submit issues or pull requests to improve this tool.
 
-License
+---
+
+# License
 
 This project is licensed under the MIT License.
